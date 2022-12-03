@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023 버킷리스트</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+        *{
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+        .title {
+            color: white;
+            background-color: tomato;
+            font-size: 24px;
+            padding: 4px 16px;
+            border-radius: 8px;
+        }
+
+        .bg {
+            width: 360px;
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bg-grid.png");
+        }
+
+        .msg {
+            background-color: orange; /* 글자색 알아보려고 임의로 넣은거 */
+            color: black; /* p태그에서 왜 글자색 적용이 안되는건데ㅠㅠ */
+            font-weight: bold;
+            padding: 4px 16px; /* 가욍에 배경색 넣은거 */
+            border-radius: 8px; /* 쪼오금 이쁘게^^;; */
+        }
+
+        .bucket {
+            width: 160px;
+            height: 160px;
+        }
+
+        .img1 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-red.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .img2 {
+            background-image: url("https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/bucket-lightred.png");
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/bucketList/sparta-bucket2.css">
+</head>
+
+<body class="bg center">
+    <h1 class="title">2023 무엇을 할텐가</h1>
+    <div class="msg center">
+        <div>찬-미비 취미 달성 목록 (till 2022.12.30)</div> <!-- /* div태그와 p태그가 여백이 다른건 알겠는데 */ -->
+        <p>코딩기초 올인 및 점자 전문화 시도</p> <!-- /* 왜 글자색 적용이 안되냐고ㅠㅠ 주석(ctrl+k+c) 모양이 다르네?! */ -->
+    </div>
+    <div class="row flex-row wrap">
+        <div class="bucket img2 center">[스파르타] SQL 수강완료</div>
+        <div class="bucket img1 center">[스파르타] 1월 무료강의 듣기</div>
+        <div class="bucket img1 center">[스파르타] 복습수강 - 웹초보</div>
+        <div class="bucket img2 center">[스파르타] 복습수강 - SQL</div>
+        <div class="bucket img2 center">업무 자동화 시도 - 회의록</div>
+        <div class="bucket img1 center">업무 자동화 시도 - 제작공정 및 보고서</div>
+        <div class="bucket img1 center">자격증 시험 응시 - 점자 3급</div>
+        <div class="bucket img2 center">(입력)</div>
+        <div class="bucket img2-t2 center done">[스파르타] 12월 무료강의 듣기</div>
+    </div>
+</body>
+</html>
